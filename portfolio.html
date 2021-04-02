@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<title>Photographer | HTML Template</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Photographer html template">
+	<meta name="keywords" content="photographer, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/magnific-popup.css"/>
+	<link rel="stylesheet" href="css/slicknav.min.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="css/style.css"/>
+
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body ng-app="myapp" ng-controller="portfolio">
+	<!-- Page Preloder -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<script src="/js/AngularJS/portfolio.js"></script>
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- Header section  -->
+	<header class="header-section">
+		<a href="index.html" class="site-logo"><img src="img/logo.png" alt="logo" width="180" height="40"></a>
+		<div class="header-controls">
+			<button class="nav-switch-btn"><i class="fa fa-bars"></i></button>
+			<button class="search-btn"><i class="fa fa-search"></i></button>
+		</div>
+		<ul class="main-menu">
+			<li><a href="index.html">Trang chủ</a></li>
+			<li><a href="about.html">Giới thiệu </a></li>
+			<li>
+				<a href="#">Danh mục Ảnh</a>
+				<ul class="sub-menu">
+					<li><a href="portfolio.html">Danh mục Ảnh 1</a></li>
+					<li><a href="portfolio-1.html" >Danh mục Ảnh 2</a></li>
+					<li><a href="portfolio-2.html">Danh mục Ảnh 3</a></li>
+				</ul>
+			</li>
+			<li><a href="blog.html">Blog của Tôi</a></li>
+			<li><a href="contact.html">Liên Hệ</a></li>
+			<li class="search-mobile">
+				<button class="search-btn"><i class="fa fa-search"></i></button>
+			</li>
+		</ul>
+	</header>
+	<div class="clearfix"></div>
+	<!-- Header section end  -->
+
+	<!-- Portfolio section  -->
+	<div class="portfolio-section">
+		<ul class="portfolio-filter controls text-center">
+			<li class="control btn-lg btn-outline-danger" data-filter="all">All</li>
+			<li class="control btn-lg btn-outline-danger" data-filter=".ddo">Hình Đô</li>
+			<li class="control btn-lg btn-outline-danger" data-filter=".Mee">Me</li>
+			<li class="control btn-lg btn-outline-danger" data-filter=".other">Bé khác</li>
+		</ul>                                                           
+		<div class="row portfolio-gallery m-0" >
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 ddo""  >
+				<a href="{{image}}" class="portfolio-item img-popup set-bg" data-setbg="{{image}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 other">
+				<a href="{{image2}}" class="portfolio-item img-popup set-bg" data-setbg="{{image2}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 ddo">
+				<a href="{{image3}}" class="portfolio-item img-popup set-bg" data-setbg="{{image3}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 ddo">
+				<a href="{{image4}}" class="portfolio-item img-popup set-bg" data-setbg="{{image4}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 ddo">
+				<a href="{{image5}}" class="portfolio-item img-popup set-bg" data-setbg="{{image5}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 other">
+				<a href="{{image6}}" class="portfolio-item img-popup set-bg" data-setbg="{{image6}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 ddo">
+				<a href="{{image7}}" class="portfolio-item img-popup set-bg" data-setbg="{{image7}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 other">
+				<a href="{{image8}}" class="portfolio-item img-popup set-bg" data-setbg="{{image8}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 other">
+				<a href="{{image9}}" class="portfolio-item img-popup set-bg" data-setbg="{{image9}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 ddo">
+				<a href="{{image10}}" class="portfolio-item img-popup set-bg" data-setbg="{{image10}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 ddo">
+				<a href="{{image11}}" class="portfolio-item img-popup set-bg" data-setbg="{{image11}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 ddo">
+				<a href="{{image12}}" class="portfolio-item img-popup set-bg" data-setbg="{{image12}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 ddo">
+				<a href="{{image13}}" class="portfolio-item img-popup set-bg" data-setbg="{{image13}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 ddo">
+				<a href="{{image14}}" class="portfolio-item img-popup set-bg" data-setbg="{{image14}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 ddo">
+				<a href="{{image15}}" class="portfolio-item img-popup set-bg" data-setbg="{{image15}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 	other">
+				<a href="{{image16}}" class="portfolio-item img-popup set-bg" data-setbg="{{image16}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 other">
+				<a href="{{image17}}" class="portfolio-item img-popup set-bg" data-setbg="{{image17}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 ddo">
+				<a href="{{image18}}" class="portfolio-item img-popup set-bg" data-setbg="{{image18}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 ddo">
+				<a href="{{image19}}" class="portfolio-item img-popup set-bg" data-setbg="{{image19}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 ddo">
+				<a href="{{image20}}" class="portfolio-item img-popup set-bg" data-setbg="{{image20}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 ddo">
+				<a href="{{image21}}" class="portfolio-item img-popup set-bg" data-setbg="{{image21}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 ddo">
+				<a href="{{image22}}" class="portfolio-item img-popup set-bg" data-setbg="{{image22}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 ddo">
+				<a href="{{image23}}" class="portfolio-item img-popup set-bg" data-setbg="{{image23}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 ddo">
+				<a href="{{image24}}" class="portfolio-item img-popup set-bg" data-setbg="{{image24}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 Mee">
+				<a href="{{image25}}" class="portfolio-item img-popup set-bg" data-setbg="{{image25}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 ddo">
+				<a href="{{image26}}" class="portfolio-item img-popup set-bg" data-setbg="{{image26}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 ddo">
+				<a href="{{image27}}" class="portfolio-item img-popup set-bg" data-setbg="{{image27}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 ddo">
+				<a href="{{image28}}" class="portfolio-item img-popup set-bg" data-setbg="{{image28}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 ddo">
+				<a href="{{image29}}" class="portfolio-item img-popup set-bg" data-setbg="{{image29}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 ddo">
+				<a href="{{image30}}" class="portfolio-item img-popup set-bg" data-setbg="{{image30}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 Mee">
+				<a href="{{image31}}" class="portfolio-item img-popup set-bg" data-setbg="{{image31}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 Mee">
+				<a href="{{image32}}" class="portfolio-item img-popup set-bg" data-setbg="{{image32}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 Mee">
+				<a href="{{image33}}" class="portfolio-item img-popup set-bg" data-setbg="{{image33}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 Mee">
+				<a href="{{image34}}" class="portfolio-item img-popup set-bg" data-setbg="{{image34}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 Mee">
+				<a href="{{image35}}" class="portfolio-item img-popup set-bg" data-setbg="{{image35}}"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0">
+				<div class="portfolio-item  next-btn">
+					<h2>Next</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Portfolio section end  -->
+	
+	<!-- Footer section   -->
+	<footer class="footer-section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6 order-1 order-md-2">
+					<div class="footer-social-links">
+						<a href=""><i class="fa fa-pinterest"></i></a>
+						<a href=""><i class="fa fa-facebook"></i></a>
+						<a href=""><i class="fa fa-twitter"></i></a>
+						<a href=""><i class="fa fa-dribbble"></i></a>
+						<a href=""><i class="fa fa-behance"></i></a>
+					</div>
+				</div>
+				<div class="col-md-6 order-2 order-md-1">
+					<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib and T4mCode</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</div>	
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer section end  -->
+
+	<!-- Search model -->
+	<div class="search-model">
+		<div class="h-100 d-flex align-items-center justify-content-center">
+			<div class="search-close-switch">+</div>
+			<form class="search-model-form">
+				<input type="text" id="search-input" placeholder="Search here.....">
+			</form>
+		</div>
+	</div>
+	<!-- Search model end -->
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/circle-progress.min.js"></script>
+	<script src="js/mixitup.min.js"></script>
+	<script src="js/instafeed.min.js"></script>
+	<script src="js/masonry.pkgd.min.js"></script>
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
